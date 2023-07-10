@@ -1,0 +1,55 @@
+li img {
+  height: 24px;
+}
+
+.header-container {
+  max-width: 100%;
+  margin-inline: auto;
+  padding-block: 10px;
+  background-color: black;
+  border-bottom: 2px solid #44D62C;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 13px;
+  
+}
+
+.razer-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 7px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 7px;
+  max-width: 1000px;
+  margin-inline: auto;
+  padding-block: 10px;
+}
+
+.search-icon,
+.cart-icon {
+  height: 20px;
+  width: 20px;
+}
+
+a:link {
+  color: #999999;
+  transition: 0.2s ease;
+}
+
+a:visited {
+  color: #999999;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.message-container {
+  background-color: rgba(153, 153, 153, 0.61);
+  text-align: center;
+  padding-block: 10px;
+}

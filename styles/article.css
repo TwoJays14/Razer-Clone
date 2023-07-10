@@ -1,0 +1,108 @@
+.section-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 1600px;
+  margin-inline: auto
+}
+.article-container {
+  position: relative;
+}
+
+
+.shop-now:link {
+  color: #fff;
+  
+}
+
+.shop-now:visited {
+  color: #fff;
+}
+
+.shop-now:hover {
+  text-decoration: underline;
+}
+
+
+.razer-blade-16 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.laptop-img {
+  border-bottom: 8px solid #222;
+  width: 100%;
+}
+
+.background-img {
+  width: 100%;
+  height: 100%;
+  margin-inline: auto;
+}
+
+
+.text-container {
+  position:absolute;
+  z-index: 1;
+  text-align: center;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  
+}
+
+.text-container div {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  font-size: 16px;
+}
+
+.text-container h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.text-container h4 {
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.text-container h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.text-container h6 span {
+  color: #44D62C;
+}
+
+.text-container h4,
+.text-container h6,
+.text-container h2 {
+  margin-top: 10px;
+}
+.text-container-links {
+  margin-right: 3px;
+}
+
+.text-container-links:link,
+.text-container-links:visited {
+  color: #fff;
+}
+
+.text-container-links:hover {
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex-container div img {
+  width: 800px;
+}
+
+
